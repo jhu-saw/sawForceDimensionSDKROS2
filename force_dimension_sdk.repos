@@ -23,14 +23,14 @@ repositories:
     type: git
     url: https://github.com/jhu-saw/sawControllers.git
     version: devel
-  cisst-saw/sawSensablePhantom:
+  cisst-saw/sawForceDimensionSDK:
     type: git
-    url: https://github.com/jhu-saw/sawSensablePhantom.git
+    url: https://github.com/jhu-saw/sawForceDimensionSDK.git
     version: devel
-  cisst-saw/sawSensablePhantomROS2:
+  cisst-saw/sawForceDimensionSDK:
     type: git
-    url: https://github.com/jhu-saw/sawSensablePhantomROS2.git
-    version: main
+    url: https://github.com/jhu-saw/sawForceDimensionSDKROS2.git
+    version: master
   crtk/crtk_msgs:
     type: git
     url: https://github.com/collaborative-robotics/ros2_crtk_msgs.git
