@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>force_dimension_sdk</name>
+  <version>1.0.0</version>
+  <description>The force_dimension_sdk package</description>
+  <maintainer email="anton.deguet@jhu.edu">Anton Deguet</maintainer>
+  <author email="anton.deguet@jhu.edu">Anton Deguet</author>
+  <license>cisst</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_python</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>cisst_ros2_crtk</depend>
+  <depend>saw_controllers</depend>
+  <depend>rclpy</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
