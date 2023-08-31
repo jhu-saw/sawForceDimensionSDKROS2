@@ -31,7 +31,7 @@ repositories:
     type: git
     url: https://github.com/jhu-saw/sawForceDimensionSDK.git
     version: devel
-  cisst-saw/sawForceDimensionSDK:
+  cisst-saw/sawForceDimensionSDKROS2:
     type: git
     url: https://github.com/jhu-saw/sawForceDimensionSDKROS2.git
     version: master
