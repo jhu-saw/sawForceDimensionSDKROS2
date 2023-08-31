@@ -16,7 +16,17 @@ Then go back to the root of your ROS 2 workspace and build using:
 colcon build
 ```
 
-Once the code is compiled, you can start the ROS 2 NDI tracker using:
+After you ran `colcon build` once, you will need to use `ccmake` or `cmake-gui` on the build tree for sawForceDimensionSDK.  for ``ccmake``, do:
+```sh
+  cd ~/ros2_ws/build/sawForceDimensionSDKAll # or whatever your workspace is
+  ccmake .
+``
+
+In CMake, find the variable `force_dimension_sdk` and set it to point to the ForceDimension SDK you should have already downloaded (see README in https://github.com/jhu-saw/sawForceDimensionSDK).
+
+You will then need to run `colcon build` now that CMake knows where the ForceDimension SDK is.
+
+Once the code is compiled, you can start the ROS 2 ForceDimension node using:
 ```
 ros2 run force_dimension_sdk force_dimension_sdk
 ```
