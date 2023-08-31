@@ -9,7 +9,7 @@ sudo apt install python3-vcstool python3-colcon-common-extensions libxml2-dev li
 
 You can use the ROS 2 VCS python-based tool (`sudo apt install python3-vcstool`) to download all the cisst, sawForceDimensionSDK and ROS 2 specific packages needed for the sawForceDimensionSDK ROS 2 node.  Look for the `.repos` file in this repository and find the link to the raw content.  Then in your ROS 2 workspace, under the `src` directory, use:
 ```sh
-vcs import --input https://raw.githubusercontent.com/jhu-saw/sawForceDimensionSDKROS2/main/force_dimension_sdk.repos
+vcs import --input https://raw.githubusercontent.com/jhu-saw/sawForceDimensionSDKROS2/master/force_dimension_sdk.repos
 ```
 Then go back to the root of your ROS 2 workspace and build using:
 ```sh
