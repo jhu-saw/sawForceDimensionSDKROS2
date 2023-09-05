@@ -34,7 +34,7 @@ repositories:
   cisst-saw/sawForceDimensionSDKROS2:
     type: git
     url: https://github.com/jhu-saw/sawForceDimensionSDKROS2.git
-    version: master
+    version: main
   crtk/crtk_msgs:
     type: git
     url: https://github.com/collaborative-robotics/ros2_crtk_msgs.git
