@@ -41,7 +41,7 @@ int main(int argc, char * argv[])
 
     // create ROS node handle
     std::vector<std::string> non_ros_arguments = rclcpp::init_and_remove_ros_arguments(argc, argv);
-    auto rosNode = std::make_shared<rclcpp::Node>("SensableOmni");
+    auto rosNode = std::make_shared<rclcpp::Node>("ForceDimension");
 
     // parse options
     cmnCommandLineOptions options;
@@ -83,7 +83,7 @@ int main(int argc, char * argv[])
 
     // ROS CRTK bridge
     mts_ros_crtk_bridge_provided * crtk_bridge
-        = new mts_ros_crtk_bridge_provided("sensable_phantom_crtk_bridge", rosNode);
+        = new mts_ros_crtk_bridge_provided("force_dimension_crtk_bridge", rosNode);
     componentManager->AddComponent(crtk_bridge);
 
     // create a Qt user interface
